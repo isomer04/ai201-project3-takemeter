@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secrets
+.env
+
+# Colab output files (root-level scratch copy only; results/ copies are committed)
+/evaluation_results.json
+/confusion_matrix.png
+
+# OS
+.DS_Store
+Thumbs.db
+
+# pytest
+.pytest_cache/
+
+# Local tooling artifacts
+.puku/
+docs/superpowers/
+
+data collection raw.txt
